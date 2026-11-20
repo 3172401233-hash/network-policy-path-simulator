@@ -1,0 +1,17 @@
+{
+  "name": "network-policy-path-simulator",
+  "version": "1.0.0",
+  "description": "Offline hop-by-hop Kubernetes NetworkPolicy path simulator across namespaces and services",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "netpol-sim": "bin/netpol-sim.js"
+  },
+  "engines": {
+    "node": ">=24.16.0"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT"
+}
